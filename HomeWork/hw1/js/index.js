@@ -24,7 +24,7 @@
 
 const numberOfSeats = prompt("Ввести число необходимых мест");
 
-// console.log(+numberOfSeats);
+ console.log(+numberOfSeats);
 if (Number.isInteger(+numberOfSeats)) {
   if (numberOfSeats <= 6) {
     const taba = confirm("we have place in Taba gruoup");
